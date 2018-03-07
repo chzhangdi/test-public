@@ -1,0 +1,3 @@
+From alpine:3.4
+ADD a.txt /tmmp
+CMD ["tail", "-f", "/dev/null"]
